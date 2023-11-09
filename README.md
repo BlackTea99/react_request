@@ -1,15 +1,5 @@
 # react-request
 
-</a>
-<a href="https://www.npmjs.com/package/@blacktea/react-request" target="\_parent">
-<img alt="" src="https://img.shields.io/npm/dm/@blacktea/react-request.svg" />
-</a>
-<a href="https://www.npmjs.com/package/@blacktea/react-request" target="\_parent">
-<img alt="" src="https://img.shields.io/npm/v/@blacktea/react-request.svg" />
-</a>
-
-A Tiny Custom React hooks for making request.
-
 
 ## Install
 
@@ -141,17 +131,3 @@ function Mutate () {
 ```ts
 type useRequest = (api, initialState) => [state, memoizedRequestCallback]
 ```
-
-Notice: Why _momoized_ request callback ?
-
-Reference: [Is it safe to omit functions from the list of dependencies?](https://reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies)
-
-If you want a deep dive on useEffect and dependencies, it's here: https://overreacted.io/a-complete-guide-to-useeffect/
-
-## Contribution
-
-PR & issue welcome.
-
-## License
-
-MIT
